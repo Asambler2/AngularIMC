@@ -4,3 +4,15 @@
     background-color: orange;
     color: white;
 }
+.label {
+    height: 75px;
+    width: 125px;
+}
+
+.borde {
+  border: 3px solid green;
+}
+
+.borde2 {
+  border: 3px solid black;
+}
