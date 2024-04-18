@@ -26,56 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -86,8 +38,7 @@
               "RelativeToolTip": "src\\app\\app.module.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-18T18:32:57.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T18:32:57.794Z"
             },
             {
               "$type": "Document",
@@ -99,8 +50,7 @@
               "RelativeToolTip": "src\\app\\app.component.css",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-18T12:40:05.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T12:40:05.048Z"
             },
             {
               "$type": "Document",
@@ -110,7 +60,7 @@
               "RelativeDocumentMoniker": "src\\app\\app.component.ts",
               "ToolTip": "C:\\localProyectosGitHub\\AngularIMC\\src\\app\\app.component.ts",
               "RelativeToolTip": "src\\app\\app.component.ts",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwDYAAAAlAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowFEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-04-18T12:31:15.236Z",
               "EditorCaption": ""
@@ -123,7 +73,7 @@
               "RelativeDocumentMoniker": "src\\app\\app.component.html",
               "ToolTip": "C:\\localProyectosGitHub\\AngularIMC\\src\\app\\app.component.html",
               "RelativeToolTip": "src\\app\\app.component.html",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-04-18T11:55:26.733Z",
               "EditorCaption": ""

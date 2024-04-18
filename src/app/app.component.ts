@@ -30,7 +30,7 @@ export class AppComponent {
       case 'metrico': let calculoMetrico: calculoCriterioMetrico = new calculoCriterioMetrico();
         this.imc = calculoMetrico.calculoImc(this.contactForm.get('peso')?.value, this.contactForm.get('altura')?.value);
         break;
-      case 'Ingles': let calculoIngles: calculoCriterioIngles = new calculoCriterioIngles();
+      case 'ingles': let calculoIngles: calculoCriterioIngles = new calculoCriterioIngles();
         this.imc = calculoIngles.calculoImc(this.contactForm.get('peso')?.value, this.contactForm.get('altura')?.value);
         break;
       default: break;
@@ -73,12 +73,12 @@ interface ICalculoMetrica {
 
 class calculoCriterioMetrico implements ICalculoMetrica {
   calculoImc(peso: number, altura: number): number {
-    return Math.ceil(((peso / altura) ^ 2) * 100) / 100;
+    return Math.ceil(((peso / (altura) ^ 2)) * 100) / 100;
   }
 }
 
 class calculoCriterioIngles implements ICalculoMetrica {
   calculoImc(peso: number, altura: number): number {
-    return (Math.ceil(((peso / altura) ^ 2) * 100) * 703 / 100);
+    return Math.ceil(((peso / (altura) ^ 2))  * 703 * 100)/ 100;
   }
 }
