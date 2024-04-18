@@ -1,1 +1,2 @@
 C:\proyectosGitHub\AngularIMC\obj\Debug\AngularIMC.esproj.CoreCompileInputs.cache
+C:\localProyectosGitHub\AngularIMC\obj\Debug\AngularIMC.esproj.CoreCompileInputs.cache

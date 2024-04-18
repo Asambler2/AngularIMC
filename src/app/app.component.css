@@ -1,12 +1,17 @@
 
 .boton {
-    border-radius: 15%;
+    border-radius: 35%;
     background-color: orange;
     color: white;
+    height: 55px;
 }
 .label {
-    height: 75px;
-    width: 125px;
+    height: 35px;
+    width: 100px;
+}
+
+.label2 {
+    width: 65px;
 }
 
 .borde {
@@ -18,5 +23,9 @@
 }
 
 .texto {
-    height: 500px;
+    height: 250px;
+}
+
+input {
+    height: 35px;
 }

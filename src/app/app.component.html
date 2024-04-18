@@ -13,33 +13,32 @@
       <div class="col-4">
         <div class="d-flex">
           <div class="d-flex flex-column gap-3 texto">
-            <div class="label">Nombre:</div>
-            <div class="label">Peso:</div>
-            <div class="label">Altura:</div>
+            <div class="label borde2">Nombre:</div>
+            <div class="label borde2">Peso:</div>
+            <div class="label borde2">Altura:</div>
           </div>
           <div class="d-flex flex-column gap-3 texto">
             <input class="borde" type="text" id="name" name="name" formControlName="nombre">
             <input class="borde" type="text" id="peso" name="peso" formControlName="peso">
             <input class="borde" type="text" id="altura" name="altura" formControlName="altura">
+            <button type="submit" class="boton">Calcula</button>
           </div>
-          <button type="submit" class="boton">Calcula</button>
         </div>
       </div>
       <div class="col-8 mr-4 borde">
         <div class="d-flex flex-column gap-1">
-          <div class="borde d-flex gap-1">
-            <input type="radio" value="male" id="gender" name="gender" formControlName="gender"> 
-            <div class="borde2">Métrico</div>
-            <input type="radio" value="female" id="gender" name="gender" formControlName="gender"> 
-            <div class="borde2">Ingles</div>
+          <div class="borde d-flex justify-content-around gap-1">
+            <div class="d-flex">
+              <input type="radio" value="metrico" id="metrica" name="metrica" formControlName="metrica">
+              <div class="borde2 label2 text-center">Métrico</div>
+            </div>
+            <div class="d-flex">
+              <input type="radio" value="ingles" id="metrica" name="metrica" formControlName="metrica">
+              <div class="borde2 label2 text-center">Ingles</div>
+            </div>  
           </div>
           <div class="border2">
-            <p>
-              Hola nombre, su sistema de medida es
-              sistema, tiene de peso: peso y de altura
-              altura, un IMC de imc y por tanto usted tiene
-              un IMC composición
-            </p>
+            <p id="resultado"></p>
           </div>
          </div>
         </div>
