@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularIMC';
+
+  contactForm = new FormGroup({
+    nombre: new FormControl(),
+    peso: new FormControl(),
+    altura: new FormControl()
+  })
+  onSubmit() {
+    console.log(this.contactForm.value);
+  }
 }

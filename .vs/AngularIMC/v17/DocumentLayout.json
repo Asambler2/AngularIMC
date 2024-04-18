@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\proyectosGitHub\\AngularIMC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|c:\\proyectosgithub\\angularimc\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|c:\\proyectosgithub\\angularimc\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|solutionrelative:src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|c:\\proyectosgithub\\angularimc\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|c:\\proyectosgithub\\angularimc\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{819D4116-BCF7-429E-BD36-D72F7BE96441}|AngularIMC.esproj|c:\\proyectosgithub\\angularimc\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -22,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\proyectosGitHub\\AngularIMC\\src\\index.html",
-              "RelativeDocumentMoniker": "src\\index.html",
-              "ToolTip": "C:\\proyectosGitHub\\AngularIMC\\src\\index.html",
-              "RelativeToolTip": "src\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAADSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-18T12:16:06.148Z",
+              "DocumentIndex": 0,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\proyectosGitHub\\AngularIMC\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.component.ts",
+              "ToolTip": "C:\\proyectosGitHub\\AngularIMC\\src\\app\\app.component.ts",
+              "RelativeToolTip": "src\\app\\app.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-18T12:31:15.236Z",
               "EditorCaption": ""
             },
             {
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "app.component.html",
               "DocumentMoniker": "C:\\proyectosGitHub\\AngularIMC\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "src\\app\\app.component.html",
               "ToolTip": "C:\\proyectosGitHub\\AngularIMC\\src\\app\\app.component.html",
               "RelativeToolTip": "src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-04-18T11:55:26.733Z",
               "EditorCaption": ""
