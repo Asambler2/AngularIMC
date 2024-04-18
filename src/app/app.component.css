@@ -16,3 +16,7 @@
 .borde2 {
   border: 3px solid black;
 }
+
+.texto {
+    height: 500px;
+}
