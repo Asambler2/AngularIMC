@@ -18,6 +18,11 @@ export class AppComponent {
     altura: new FormControl(),
     metrica: new FormControl()
   })
+
+  constructor() {
+    this.contactForm.get("metrica")?.setValue("metrico");
+  }
+
   onSubmit() {
     this.calcula();
     console.log(this.contactForm.value);
