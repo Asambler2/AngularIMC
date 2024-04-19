@@ -78,12 +78,12 @@ interface ICalculoMetrica {
 
 class calculoCriterioMetrico implements ICalculoMetrica {
   calculoImc(peso: number, altura: number): number {
-    return Math.ceil(((peso / (altura) ^ 2)) * 100) / 100;
+    return Math.ceil(((peso / (altura ^ 2))) * 100) / 100;
   }
 }
 
 class calculoCriterioIngles implements ICalculoMetrica {
   calculoImc(peso: number, altura: number): number {
-    return Math.ceil(((peso / (altura) ^ 2))  * 703 * 100)/ 100;
+    return Math.ceil(((peso / (altura ^ 2)))  * 703 * 100)/ 100;
   }
 }
