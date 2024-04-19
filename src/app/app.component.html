@@ -8,22 +8,22 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <main>
-  <form class="borde" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <form class="borde fondo" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="container-fluid row mt-4">
       <div class="col-4">
         <div class="d-flex">
           <div class="d-flex flex-column gap-3 texto">
-            <div class="label borde2">Nombre:</div>
-            <div class="label borde2" *ngIf="this.contactForm.get('metrica')?.value=='metrico'">Peso en kg:</div>
-            <div class="label borde2" *ngIf="this.contactForm.get('metrica')?.value=='ingles'">Peso en lb:</div>
-            <div class="label borde2" *ngIf="this.contactForm.get('metrica')?.value=='metrico'">Altura en m:</div>
-            <div class="label borde2" *ngIf="this.contactForm.get('metrica')?.value=='ingles'">Altura inch:</div>
+            <div class="label borde2 sombra">Nombre:</div>
+            <div class="label borde2 sombra" *ngIf="this.contactForm.get('metrica')?.value=='metrico'">Peso en kg:</div>
+            <div class="label borde2 sombra" *ngIf="this.contactForm.get('metrica')?.value=='ingles'">Peso en lb:</div>
+            <div class="label borde2 sombra" *ngIf="this.contactForm.get('metrica')?.value=='metrico'">Altura en m:</div>
+            <div class="label borde2 sombra" *ngIf="this.contactForm.get('metrica')?.value=='ingles'">Altura inch:</div>
           </div>
           <div class="d-flex flex-column gap-3 texto">
-            <input class="borde" type="text" id="name" name="name" formControlName="nombre">
-            <input class="borde" type="text" id="peso" name="peso" formControlName="peso">
-            <input class="borde" type="text" id="altura" name="altura" formControlName="altura">
-            <button type="submit" class="boton">Calcula</button>
+            <input class="borde sombra" type="text" id="name" name="name" formControlName="nombre">
+            <input class="borde sombra" type="text" id="peso" name="peso" formControlName="peso">
+            <input class="borde sombra" type="text" id="altura" name="altura" formControlName="altura">
+            <button type="submit" class="boton sombra">Calcula</button>
           </div>
         </div>
       </div>
@@ -32,15 +32,15 @@
           <div class="borde d-flex justify-content-around gap-1">
             <div class="d-flex">
               <input type="radio" value="metrico" id="metrica" name="metrica" formControlName="metrica"/>
-              <div class="borde2 label2 text-center">Métrico</div>
+              <div class="borde2 label2 text-center sombra">Métrico</div>
             </div>
             <div class="d-flex">
               <input type="radio" value="ingles" id="metrica" name="metrica" formControlName="metrica"/>
-              <div class="borde2 label2 text-center">Ingles</div>
+              <div class="borde2 label2 text-center sombra">Ingles</div>
             </div>  
           </div>
           <div class="border2">
-            <p id="resultado"></p>
+            <p id="resultado" class="sombra"></p>
           </div>
          </div>
         </div>

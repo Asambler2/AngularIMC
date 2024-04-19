@@ -1,4 +1,12 @@
 
+.fondo {
+    background-image: url('../assets/img/fondo.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 300px;
+    font-weight: bold;
+}
+
 .boton {
     border-radius: 35%;
     background-color: orange;
@@ -8,10 +16,12 @@
 .label {
     height: 35px;
     width: 100px;
+    background-color: white;
 }
 
 .label2 {
-    width: 65px;
+  width: 65px;
+  background-color: white;
 }
 
 .borde {
@@ -28,4 +38,12 @@
 
 input {
     height: 35px;
+}
+
+p {
+    background-color: white;
+}
+
+.sombra {
+  box-shadow: 6px -6px teal;
 }
