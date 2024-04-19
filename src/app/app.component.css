@@ -12,7 +12,15 @@
     background-color: orange;
     color: white;
     height: 55px;
+    width: 130px;
 }
+
+  .boton:hover {
+    background-color: red;
+    height: 65px;
+    width: 150px;
+  }
+
 .label {
     height: 35px;
     width: 100px;
